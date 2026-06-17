@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'KHTitle';
+    src: url('../fonts/KHTitle.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Keeps text visible while the font loads */
+}
+
+@font-face {
+    font-family: 'KHMenu';
+    src: url('../fonts/KHMenu.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Keeps text visible while the font loads */
+}
+
+@font-face {
+    font-family: 'KHGummi';
+    src: url('../fonts/KHGummi.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Keeps text visible while the font loads */
+}
+
+@font-face {
+    font-family: 'KHData';
+    src: url('../fonts/KHData.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Keeps text visible while the font loads */
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'KHTitle', sans-serif;
+}
+
+h2 {
+    font-family: 'KHGummi';
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    background-color: aqua;
+}
+
+a {
+    font-family: 'KHMenu';
+}
+
+ul li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: purple;
+}
+/* 
+img {
+    display: block;
+} */
+
+img.logo {
+    margin: auto;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    /* border: 20px; */
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+img.heroimage {
+    margin: auto;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    padding: 10;
+}
