@@ -36,7 +36,7 @@ body {
     background-image: linear-gradient(to bottom right, #0b3279, #b2c5d9);
 }
 
-ul {
+header ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
@@ -44,12 +44,15 @@ ul {
     justify-content: right;
     background-color: aqua;
 }
+main {
+    min-height: 700px;
+}
 
 a {
     font-family: 'KHGummi';
 }
 
-ul li a {
+header ul li a {
   color: blue;
   text-align: center;
   padding: 20px 25px;
@@ -57,7 +60,7 @@ ul li a {
   float: right;
 }
 
-ul li a:hover {
+header ul li a:hover {
     background-color: purple;
 }
 
