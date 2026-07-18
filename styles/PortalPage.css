@@ -48,6 +48,18 @@ header ul {
     margin: 0 auto;
 }
 
+header ul li a {
+    color: white;
+    text-align: center;
+    padding: 42px 25px;
+    text-decoration: none;
+    display: flex;
+}
+
+header ul li a:hover {
+    background-image: linear-gradient(to bottom right, rgba(255,0,0,0) 55%, #dfbb2c, #3459eb);
+}
+
 main {
     min-height: 1000px;
 }
@@ -64,18 +76,6 @@ a {
 
 .ice-links a:visited {
     color: rgb(214, 197, 3);
-}
-
-header ul li a {
-    color: white;
-    text-align: center;
-    padding: 42px 25px;
-    text-decoration: none;
-    display: flex;
-}
-
-header ul li a:hover {
-    background-image: linear-gradient(to bottom right, rgba(255,0,0,0) 55%, #dfbb2c, #3459eb);
 }
 
 .image-text-container {
