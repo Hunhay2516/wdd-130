@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'KHTitle';
+    src: url('../fonts/KHTitle.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Keeps text visible while the font loads */
+}
+
+@font-face {
+    font-family: 'KHMenu';
+    src: url('../fonts/KHMenu.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Keeps text visible while the font loads */
+}
+
+@font-face {
+    font-family: 'KHGummi';
+    src: url('../fonts/KHGummi.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Keeps text visible while the font loads */
+}
+
+@font-face {
+    font-family: 'KHData';
+    src: url('../fonts/KHData.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Keeps text visible while the font loads */
+}
+
+/* h1 {
+    font-family: 'KHTitle';
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom right, #0b3279, #b2c5d9);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, rgba(255,0,0,0) 55%, #c28734, #eb5c34, #eb4034);
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0 auto;
+}
+
+main {
+    min-height: 1000px;
+}
+
+a {
+    font-family: 'KHGummi';
+}
+
+header ul li a {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 42px 25px;
+    text-decoration: none;
+    display: flex;
+}
+
+header ul li a:hover {
+    background-image: linear-gradient(to bottom right, rgba(255,0,0,0) 55%, #dfbb2c, #3459eb);
+}
+
+.image-text-container {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 1397px;
+    margin: 25px auto;
+}
+
+.image-text-container img.heroimage {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.welcome-text {
+    font-family: 'KHTitle';
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-size: 40px;
+}
+
+img.logo {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    display: flex;
+    padding: 6px 40px;
+}
+
+footer {
+    background-image: linear-gradient(to right, #c28734, #eb5c34, #eb4034);
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+footer ul li a {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 42px 25px;
+    text-decoration: none;
+    display: flex;
+}
